@@ -31,6 +31,18 @@ public class HomePage extends base{
 	{
 		System.out.println("Changes");
 	}
+	@Test
+	public void disp1y()
+	{
+		System.out.println("Changes");
+	}
+	
+	@Test
+	public void disp2y()
+	{
+		System.out.println("Changes");
+	}
+	
 	@Test(dataProvider="getData")
 	public void basePageNavigation(String Username, String Password) throws IOException
 	{

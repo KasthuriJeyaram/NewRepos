@@ -26,6 +26,11 @@ public class HomePage extends base{
 		log.info("Driver Invoked");
 		
 	}
+	@Test
+	public void disp()
+	{
+		System.out.println("Changes");
+	}
 	@Test(dataProvider="getData")
 	public void basePageNavigation(String Username, String Password) throws IOException
 	{

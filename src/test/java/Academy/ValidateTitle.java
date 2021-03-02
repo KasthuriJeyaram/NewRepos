@@ -42,6 +42,24 @@ public class ValidateTitle extends base{
 		Assert.assertEquals(s,"FEATURED COURSES123");
 	}
 	
+	@Test
+	public void titleCheck1() throws IOException
+	{
+		LandingPage l = new LandingPage(driver);
+		String s = l.getText1().getText();
+		System.out.println(s);
+		Assert.assertEquals(s,"FEATURED COURSES123");
+	}
+	@Test
+	public void titleCheck2() throws IOException
+	{
+		LandingPage l = new LandingPage(driver);
+		String s = l.getText1().getText();
+		System.out.println(s);
+		Assert.assertEquals(s,"FEATURED COURSES123");
+	}
+	
+	
 	@AfterTest
 	public void tearDown()
 	{

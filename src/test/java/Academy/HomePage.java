@@ -40,7 +40,7 @@ public class HomePage extends base{
 	@Test
 	public void disp2y()
 	{
-		System.out.println("Changes");
+		System.out.println("Changes2y");
 	}
 	
 	@Test(dataProvider="getData")

@@ -15,6 +15,7 @@ public class ResetPassword extends base {
 	public void getBrowser() throws IOException
 	{
 		driver=initializeDriver();
+		system.out.println("Dummy");
 	}
 	
 	@Test
